@@ -1,0 +1,97 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.font-mini {
+  font-size: 14px;
+}
+
+.front-card, 
+.back-card {
+  width: 450px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.front-bg-card{
+  width: 100%;
+}
+
+.background-card {
+  width: 100%;
+}
+
+.back-card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.content-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 10;
+  position: absolute;
+}
+
+.logo-tmt{
+  width: 100px;
+  height: auto;
+}
+
+.name-member {
+  color: #0c5f31;
+  border-bottom: 3px dotted black;
+}
+.mr-0 {
+  margin: 0;
+}
+
+.mr-2 {
+  margin: 0 0 2px 0;
+}
+
+.mr-4 {
+  margin: 0 0 4px 0;
+}
+
+.mr-8 {
+  margin: 0 0 8px 0;
+}
+
+.mr-12 {
+  margin: 0 0 12px 0;
+}
+
+.mr-16 {
+  margin: 0 0 16px 0;
+}
+
+.mr-32 {
+  margin: 0 0 32px 0;
+}
+
+.mr-r80{
+  margin-right: 80px;
+}
+
+.place {
+  margin-top: 12px;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+}
+
+.row1 {
+  height: 100px;
+}
