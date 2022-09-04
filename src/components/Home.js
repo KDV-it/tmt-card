@@ -28,7 +28,7 @@ const Home = () => {
   return (
     <div className='home'>
       <div className="img-div">
-        <img src={imageUrl} alt="" />
+        <img src={desktop} alt="" />
       </div>
       <div className="content">
 
@@ -56,7 +56,7 @@ const Home = () => {
 
       </div>
       <div className="img-div-bottom">
-        <img src={imageUrl} alt="" />
+        <img src={mobile} alt="" />
       </div>
     </div>
   )
