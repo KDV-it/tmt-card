@@ -1,3 +1,10 @@
+.container {
+  background-color: #cefe9f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .card {
   display: flex;
   justify-content: center;
@@ -5,19 +12,18 @@
   background-color: #cefe9f;
 }
 
-
 .font-mini {
   font-size: 14px;
 }
 
-.front-card, 
+.front-card,
 .back-card {
   width: 450px;
   margin: 20px;
   padding: 10px;
 }
 
-.front-bg-card{
+.front-bg-card {
   width: 100%;
 }
 
@@ -30,7 +36,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .content-card {
@@ -42,12 +47,14 @@
   position: absolute;
 }
 
-.logo-tmt{
+.logo-tmt {
   width: 100px;
   height: auto;
 }
 
 .name-member {
+  text-align: center;
+  width: 100%;
   color: #0c5f31;
   border-bottom: 3px dotted black;
 }
@@ -79,7 +86,7 @@
   margin: 0 0 32px 0;
 }
 
-.mr-r80{
+.mr-r80 {
   margin-right: 80px;
 }
 
@@ -92,7 +99,6 @@
 .time-work {
   color: #0f5f3b;
   font-weight: 600;
-
 }
 
 table {
@@ -101,7 +107,11 @@ table {
 }
 
 .row1 {
-  height: 100px;
+  height: 80px;
+}
+
+.first {
+  padding-bottom: 20px;
 }
 
 .time-line h3 {
@@ -117,23 +127,74 @@ table {
   color: #0f5f3b;
   font-weight: 600;
   cursor: pointer;
+  margin-bottom: 20px;
+  margin: 0px 20px 20px;
 }
 
 .btn-download:hover {
   background-color: #f5f5f5;
 }
 
+.container-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
 @media (max-width: 739px) {
-  .card {
-    flex-direction: column;
+  .font-mini {
+    font-size: 10px;
   }
 
-  .front-bg-card{
-    width: 95%;
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #cefe9f;
+    overflow-x: hidden;
+  }
+  .front-card,
+  .back-card {
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
   }
   
-  .background-card {
-    width: 95%;
+  .logo-tmt {
+    width: 60px;
+    height: auto;
   }
+
+  .mr-2{
+    magin: 0 0 1px 0;
+  }
+
+  .mr-12 {
+    margin: 0 0 8px 0;
+  }
+
+  .mr-16 {
+    margin: 0 0 12px 0;
+  }
+
+  .front-card {
+    padding: 0;
+  }
+  .front-bg-card {
+    width: 94%;
+  }
+
+  .background-card {
+    width: 94%;
+  }
+
+  .row1 {
+    height: 50px;
+  }
+  
+  .first {
+    padding-bottom: 14px;
+}
 }

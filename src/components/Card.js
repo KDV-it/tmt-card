@@ -17,7 +17,7 @@ const Card = () => {
 
   //create image and download
   const handleDownload = () => {
-    const screenshortTarget = document.getElementById('back-card');
+    const screenshortTarget = document.getElementById('front-card');
 
     html2canvas(screenshortTarget).then((canvas) => {
       const base64image = canvas.toDataURL("image/png");
@@ -28,6 +28,21 @@ const Card = () => {
       anchor.remove();
     })
   }
+
+  const handleDownload2 = () => {
+    const screenshortTarget = document.getElementById('back-card');
+
+    html2canvas(screenshortTarget).then((canvas) => {
+      const base64image = canvas.toDataURL("image/png");
+      var anchor = document.createElement('a');
+      anchor.setAttribute("href", base64image);
+      anchor.setAttribute("download", "thiep2.png");
+      anchor.click();
+      anchor.remove();
+    })
+  }
+
+
   return (
     <>
 
@@ -74,7 +89,7 @@ const Card = () => {
 
             <table>
               <tr className='row1'>
-                <th className=' font-mini '>Hợp thỉnh <br /> Cha Linh hướng</th>
+                <th className=' font-mini first'>Hợp thỉnh <br /> Cha Linh hướng</th>
                 <th className=' font-mini '>Trưởng Ban đại diện</th>
               </tr>
               <tr className='row1' >
@@ -86,8 +101,15 @@ const Card = () => {
 
         </div>
 
-        <button className='btn-download' onClick={handleDownload}>Download</button>
+        <div className='container-btn'>
+
+          <button className='btn-download' onClick={handleDownload}>Download Ảnh 1</button>
+          <button className='btn-download' onClick={handleDownload2}>Download Ảnh 2</button>
+        </div>
       </div >
+
+
+
     </>
   )
 }
