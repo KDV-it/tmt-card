@@ -85,6 +85,14 @@
 
 .place {
   margin-top: 12px;
+  color: #0f5f3b;
+  font-weight: 600;
+}
+
+.time-work {
+  color: #0f5f3b;
+  font-weight: 600;
+
 }
 
 table {
@@ -94,4 +102,38 @@ table {
 
 .row1 {
   height: 100px;
+}
+
+.time-line h3 {
+  color: red;
+  font-style: italic;
+}
+
+.btn-download {
+  width: 100px;
+  height: 40px;
+  border: 1px solid #0bb061;
+  border-radius: 25px;
+  color: #0f5f3b;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-download:hover {
+  background-color: #f5f5f5;
+}
+
+
+@media (max-width: 739px) {
+  .card {
+    flex-direction: column;
+  }
+
+  .front-bg-card{
+    width: 95%;
+  }
+  
+  .background-card {
+    width: 95%;
+  }
 }
