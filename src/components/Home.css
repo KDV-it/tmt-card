@@ -1,5 +1,12 @@
+
+
+
 .green {
-  color: #38933d;
+  color: #0f5f3b;
+}
+
+.invite {
+  font-family: "SFU Isadora", sans-serif;
 }
 
 .img-div-bottom {
@@ -50,6 +57,7 @@
 .content h2 {
   color: red;
   margin: 4px;
+  text-shadow: 2px 2px #9aacba
 }
 
 .content input {

@@ -1,8 +1,53 @@
+
+@font-face {
+  font-family: 'SFU Isadora';
+  src: url('./fonts/SFUIsadora.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SFU Isadora';
+  src: url('./fonts/SFUISADORABOLD.TTF') format('truetype');
+}  
+
+@font-face {
+  font-family: 'SFU Isadora';
+  src: url('./fonts/SFUISADORAREGULAR.TTF') format('truetype');
+}  
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Serif Pro';
+  src: url('./fonts/SourceSerifPro-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./fonts/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
 .App {
+  font-family: 'Montserrat';
   text-align: center;
   min-width: 1024px;
   background-image: linear-gradient(to right, #dafea9, #fafecb);
-
 }
 
 

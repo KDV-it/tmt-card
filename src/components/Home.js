@@ -33,7 +33,7 @@ const Home = () => {
       <div className="content">
 
         <img src={logo} alt='logo' className='logo-tmt' />
-        <h1 className="green">Thân mời</h1>
+        <h1 className="green invite">Thân mời</h1>
 
         <p className="content-text">Quý anh chị cựu sinh viên tham dự chương trình</p>
         

@@ -55,7 +55,7 @@
 .name-member {
   text-align: center;
   width: 100%;
-  color: #0c5f31;
+  color: #0000FF;
   border-bottom: 3px dotted black;
 }
 .mr-0 {
@@ -163,7 +163,7 @@ table {
   }
   
   .logo-tmt {
-    width: 60px;
+    width: 80px;
     height: auto;
   }
 
